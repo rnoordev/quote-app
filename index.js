@@ -1,4 +1,3 @@
-// document.getElementById('newQuoteBtn').addEventListener('click', function () {
 const quotes = [
     {
         text: "Resentment is like drinking poison and waiting for your enemies to die.",
@@ -24,9 +23,3 @@ function generateQuote() {
     document.querySelector('#authorOutput').textContent = `--${quotes[random].author}`;
 
 }
-// const randomIndex = Math.floor(Math.random() * quotes.length);
-// const randomQuote = quotes[randomIndex];
-
-// document.getElementById('quoteText').textContent = `"${randomQuote.text}"`;
-// document.getElementById('quoteAuthor').textContent = randomQuote.author;
-// });
